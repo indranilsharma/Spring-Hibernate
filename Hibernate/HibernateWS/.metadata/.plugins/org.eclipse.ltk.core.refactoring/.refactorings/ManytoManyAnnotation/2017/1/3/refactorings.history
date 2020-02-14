@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Move &apos;util&apos; to &apos;mypack&apos;" description="Move &apos;util&apos; to &apos;mypack&apos;" destination="src/com/mypack" element1="src/util" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1484982363105" updateReferences="true"/>&#x0A;<refactoring comment="Move &apos;App.java&apos; to &apos;util&apos;" description="Move &apos;App.java&apos; to &apos;util&apos;" destination="src/com/mypack/util" element1="src/com/mypack/App.java" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1484982373116" updateReferences="true"/>
+</session>

@@ -1,0 +1,5 @@
+package com.mypack.common;
+
+public class Stock {
+
+}

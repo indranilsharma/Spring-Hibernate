@@ -1,0 +1,4 @@
+main\java\com\mypack\common\App.class
+main\java\com\mypack\common\Stock.class
+main\java\com\mypack\common\StockDetail.class
+main\java\com\mypack\persistence\HibernateUtil.class

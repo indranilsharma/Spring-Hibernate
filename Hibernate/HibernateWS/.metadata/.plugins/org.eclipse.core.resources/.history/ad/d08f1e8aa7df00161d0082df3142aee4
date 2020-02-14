@@ -1,0 +1,5 @@
+package com.mypack.stock;
+
+public class Category {
+
+}

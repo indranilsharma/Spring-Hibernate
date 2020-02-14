@@ -1,0 +1,5 @@
+package com.mypack.persistence;
+
+public class HibernateUtil {
+
+}
