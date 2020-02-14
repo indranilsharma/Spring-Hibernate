@@ -1,0 +1,5 @@
+package com.indranil.student.dal.repos;
+
+public class StudentRepository  {
+
+}

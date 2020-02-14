@@ -1,0 +1,32 @@
+package com.indranil.locationweb.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.indranil.locationweb.entities.Location;
+import com.indranil.locationweb.services.LocationService;
+
+@Controller
+public class LocationController {
+
+	@Autowired
+	LocationService locationService;
+
+	@RequestMapping("/show")
+	public String show() {
+		return "createLocation";
+	}
+
+	// save as object and ModelAttribute responsible for request handling,model map
+	// responsible for response handlingand that  back to jsp
+	@RequestMapping("/saveLoc")
+	public String saveLocation(@ModelAttribute("location") Location location, ModelMap modelMap) {
+		Location locationSave = locationService.saveLocation(location);
+		String message = " Location got saved :" + locationSave.getId();
+		modelMap.addAttribute("message", message);
+		return "createLocation";
+	}
+}

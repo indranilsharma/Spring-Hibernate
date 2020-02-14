@@ -1,0 +1,5 @@
+package com.indranil.locationweb.services;
+
+public interface LocationService {
+
+}

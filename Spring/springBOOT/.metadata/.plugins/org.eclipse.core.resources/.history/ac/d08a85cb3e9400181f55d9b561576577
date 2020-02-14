@@ -1,0 +1,13 @@
+package com.indranil.locationweb.Controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@Controller
+public class LocationController {
+
+	@RequestMapping("/show")
+	public String show() {
+	return "createLocation";
+}
+}

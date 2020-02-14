@@ -1,0 +1,15 @@
+package com.indranil.locationweb.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.indranil.locationweb.entities.Location;
+import com.indranil.locationweb.repos.LocationRepository;
+
+@Service
+public class LocationServiceImpl  {
+
+	
+}

@@ -1,0 +1,12 @@
+package com.indranil.locationweb.services;
+
+
+public interface LocationService {
+/*
+  Location saveLocation(Location location);
+  Location updateLocation(Location location);
+  void deleteLocation(Location location);
+  Location getLocationById(int id);*/
+  
+	
+}

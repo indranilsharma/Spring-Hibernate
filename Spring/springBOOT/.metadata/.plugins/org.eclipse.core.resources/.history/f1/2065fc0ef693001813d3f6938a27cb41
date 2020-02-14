@@ -1,0 +1,2 @@
+spring.datasource.url=jdbc:mysql://locatlost:3306/sringbootprodb
+srring.data
