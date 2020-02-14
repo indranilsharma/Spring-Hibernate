@@ -1,0 +1,32 @@
+package com.marshell;
+
+import java.io.StringWriter;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+
+import com.bharatthippireddy.patient.Patient;
+
+public class JAXBdemo {
+public static void main(String[] args) {
+	try {
+		JAXBContext jaxbContext =JAXBContext.newInstance(Patient.class);
+		Marshaller marshaller = jaxbContext.createMarshaller();
+		
+		Patient patient = new Patient();
+		patient.setId(1234);
+		patient.setName("Dodo");
+		
+	    StringWriter writer = new StringWriter();
+		marshaller.marshal(patient, writer);
+		
+		System.out.println(writer.toString());
+		
+		
+	} catch (JAXBException e) {
+		e.printStackTrace();
+	}
+	
+}
+}

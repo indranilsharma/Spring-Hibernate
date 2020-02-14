@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Patient xmlns:tns="http://www.indranil.org/Patient." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.indranil.org/Patient. Patient.xsd ">
+  <tns:id>4</</tns:id>
+  <tns:id>5</tns:id>
+  <tns:name>dodd</tns:name>
+  <tns:age>44</tns:age>
+  <tns:dob>2001-01-01</tns:dob>
+  <tns:email>u@hmaol.com</tns:email>
+  <tns:email>u@hmaol.com</tns:email>
+  <tns:email>u@hmaol.com</tns:email>
+  <tns:email>u@hmaol.com</tns:email>
+  <tns:email>u@hmaol.com</tns:email>
+  <tns:gender>M</tns:gender>
+  <tns:phone>151818</tns:phone>
+  <tns:payment>
+    <tns:insurance>
+     <tns:Name>royal</tns:Name>
+     <tns:limit>22</tns:limit>
+    </tns:insurance>
+  </tns:payment>
+</tns:Patient>

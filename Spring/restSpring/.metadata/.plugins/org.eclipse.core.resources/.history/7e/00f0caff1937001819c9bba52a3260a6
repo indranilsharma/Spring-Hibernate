@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.indranil.org/Patient."
+	xmlns:tns="http://www.indranil.org/Patient." elementFormDefault="qualified">
+
+	<element name="Patient" type="tns:Patient" />
+	<complexType name="Patient">
+		<sequence>
+			<element name="id" type="int"></element>
+			<element name="name" type="string"></element>
+			<element name="age" type="int"></element>
+			<element name="dob" type="date"></element>
+			<element name="email" type="string"></element>
+			<element name="gender" type="string"></element>
+			<element name="phone" type="int"></element>
+		</sequence>
+	</complexType>
+
+
+</schema>
