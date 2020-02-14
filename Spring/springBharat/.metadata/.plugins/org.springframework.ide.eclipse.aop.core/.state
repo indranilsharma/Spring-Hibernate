@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="springjavaconfig"/>
+<aop-project name="springMvcJavaConfig"/>
+<aop-project name="springmvcorm">
+<aspect-definition advice-class-name="org.springframework.transaction.interceptor.TransactionInterceptor" advice-method-name="invoke" advice-method-parameter-types="org.aopalliance.intercept.MethodInvocation" advice-type="AROUND" aspect-end-line-number="14" aspect-name="org.springframework.transaction.interceptor.TransactionInterceptor#springmvcorm#src/main/webapp/WEB-INF/dispatcher-servlet.xml#14" aspect-start-line-number="14" factory-id="org.springframework.ide.eclipse.aop.core.javaAdvisorDefinitionElementFactory" file="/springmvcorm/src/main/webapp/WEB-INF/dispatcher-servlet.xml" pointcut-expression="(@within(org.springframework.transaction.annotation.Transactional) || @annotation(org.springframework.transaction.annotation.Transactional)) &amp;&amp; execution(* *..*(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:springmvcorm|3:src/main/webapp/WEB-INF/dispatcher-servlet.xml|7:beans:11|8:userServiceImpl:11" bean-file="/springmvcorm/src/main/webapp/WEB-INF/dispatcher-servlet.xml" bean-start-line="11" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/springmvcorm/src/main/webapp/WEB-INF/dispatcher-servlet.xml" source="=springmvcorm/C:\/Users\/Hablu\/.m2\/repository\/org\/springframework\/spring-tx\/4.3.6.RELEASE\/spring-tx-4.3.6.RELEASE.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=springmvcorm/src\/main\/java&lt;com.springmvcorm.user.services{UserServiceImpl.java[UserServiceImpl~save~QUser;" target-start-line="21"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="springMvc"/>
+<aop-project name="springORM"/>
+</aop-reference-model>

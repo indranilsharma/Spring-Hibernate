@@ -1,0 +1,22 @@
+package com.springORM.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.springORM.dao.ProductDao;
+import com.springORM.model.Product;
+
+public class Test {
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/springORM/test/config.xml");
+		ProductDao productDao = (ProductDao) context.getBean("productDao");
+		Product product = new Product();
+		product.setId(4);
+		/*product.setProductname("Watch");
+		product.setProductdesc("Smart watch");
+		product.setProductprice(3000);*/
+		//productDao.create(product);
+		//productDao.update(product);
+		productDao.delete(product);
+	}
+}

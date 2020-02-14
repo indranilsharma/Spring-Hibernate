@@ -1,0 +1,5 @@
+package com.springjavaconfig;
+
+public class JavaDaoConfig {
+
+}

@@ -1,0 +1,12 @@
+package com.springjavaconfig;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+
+@Component
+public class JavaDao {
+	@Bean
+	public void create() {
+		System.out.println("created");
+	}
+}

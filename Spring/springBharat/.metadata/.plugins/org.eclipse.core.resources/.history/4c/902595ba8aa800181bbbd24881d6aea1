@@ -1,0 +1,5 @@
+package springMvc.controller;
+
+public class ObjectController {
+
+}

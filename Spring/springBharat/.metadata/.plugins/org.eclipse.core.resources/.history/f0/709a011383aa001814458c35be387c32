@@ -1,0 +1,20 @@
+package com.springjavaconfig;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class JavaConfig {
+
+	@Bean
+	public JavaDao returnBean() {
+		return new JavaDao();
+
+	}
+
+	@Bean
+	public JavaService save() {
+		return new JavaService();
+	}
+
+}

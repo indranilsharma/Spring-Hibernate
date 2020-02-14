@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;springjavaconfig/src/main/java/com/springjavaconfig/App.java&apos; to &apos;JavaConfig.java&apos;" description="Rename resource &apos;App.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/springjavaconfig/App.java" name="JavaConfig.java" stamp="1535431930105" updateReferences="true"/>
+</session>

@@ -1,0 +1,11 @@
+package com.springORM.dao;
+
+import com.springORM.model.Product;
+
+public class ProductDAOImpl implements ProductDAO {
+
+	public int create(Product product) {
+		return 0;
+	}
+
+}

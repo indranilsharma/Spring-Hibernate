@@ -1,0 +1,8 @@
+package com.springORM.dao;
+
+import com.springORM.model.Product;
+
+public interface ProductDao {
+
+	int create(Product product);
+}

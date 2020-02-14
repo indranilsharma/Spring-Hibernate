@@ -1,0 +1,5 @@
+package com.springmvcorm.user.dao;
+
+public class UserDaoImpl {
+
+}

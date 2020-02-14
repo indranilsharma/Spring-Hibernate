@@ -1,0 +1,16 @@
+package com.springORM.dao;
+
+import org.springframework.orm.hibernate5.HibernateTemplate;
+
+import com.springORM.model.Product;
+
+public class ProductDAOImpl implements ProductDAO {
+
+	
+	HibernateTemplate hibernateTemplate;
+	
+	public int create(Product product) {
+		return 0;
+	}
+
+}

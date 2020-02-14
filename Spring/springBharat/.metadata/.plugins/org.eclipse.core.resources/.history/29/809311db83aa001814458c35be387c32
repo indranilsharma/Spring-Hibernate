@@ -1,0 +1,14 @@
+package com.springjavaconfig;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class JavaService {
+
+	@Autowired
+	JavaDao dao;
+	
+	public void save() {
+		 dao.create();
+	}
+	
+}

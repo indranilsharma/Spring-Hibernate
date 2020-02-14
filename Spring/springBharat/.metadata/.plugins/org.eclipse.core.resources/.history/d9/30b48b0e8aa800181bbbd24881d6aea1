@@ -1,0 +1,5 @@
+package springMvc.dto;
+
+public class Employee {
+
+}

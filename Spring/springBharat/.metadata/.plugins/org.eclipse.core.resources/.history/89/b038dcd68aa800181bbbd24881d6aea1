@@ -1,0 +1,22 @@
+package springMvc.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import springMvc.dto.Employee;
+
+public class ObjectController {
+
+	@RequestMapping("/objectView")
+	public ModelAndView sendObject() {
+		ModelAndView modelAndView = new ModelAndView();
+
+		Employee employee = new Employee();
+		employee.setId(1);
+		employee.setName("Jon");
+		employee.setSalary(2000);
+		modelAndView.addObject("employee", employee);
+		return modelAndView;
+	}
+
+}

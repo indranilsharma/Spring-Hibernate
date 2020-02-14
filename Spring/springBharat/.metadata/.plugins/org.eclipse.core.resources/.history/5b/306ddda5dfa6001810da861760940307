@@ -1,0 +1,5 @@
+package com.springORM.model;
+
+public class Product {
+
+}

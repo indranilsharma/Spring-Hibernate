@@ -1,0 +1,7 @@
+package com.springjavaconfig;
+
+public class JavaDao {
+	public void create() {
+		System.out.println("created");
+	}
+}

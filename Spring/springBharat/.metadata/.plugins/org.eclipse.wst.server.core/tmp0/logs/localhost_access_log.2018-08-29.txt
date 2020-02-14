@@ -1,0 +1,11 @@
+127.0.0.1 - - [29/Aug/2018:00:37:11 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [29/Aug/2018:00:37:12 +0530] "GET /springMvcJavaConfig/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [29/Aug/2018:00:37:31 +0530] "GET /springMvcJavaConfig/hello HTTP/1.1" 404 1044
+0:0:0:0:0:0:0:1 - - [29/Aug/2018:00:39:18 +0530] "GET /springMvcJavaConfig/hello HTTP/1.1" 404 1044
+0:0:0:0:0:0:0:1 - - [29/Aug/2018:00:39:21 +0530] "GET /springMvcJavaConfig/hello HTTP/1.1" 404 1044
+0:0:0:0:0:0:0:1 - - [29/Aug/2018:00:39:25 +0530] "GET /springMvcJavaConfig/hello HTTP/1.1" 404 1044
+0:0:0:0:0:0:0:1 - - [29/Aug/2018:00:39:25 +0530] "GET /springMvcJavaConfig/hello HTTP/1.1" 404 1044
+0:0:0:0:0:0:0:1 - - [29/Aug/2018:00:39:26 +0530] "GET /springMvcJavaConfig/hello HTTP/1.1" 404 1044
+0:0:0:0:0:0:0:1 - - [29/Aug/2018:00:39:39 +0530] "GET /springMvcJavaConfig HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [29/Aug/2018:00:39:40 +0530] "GET /springMvcJavaConfig/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [29/Aug/2018:00:40:00 +0530] "GET /springMvcJavaConfig/test1 HTTP/1.1" 404 1044

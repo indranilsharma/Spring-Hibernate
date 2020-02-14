@@ -1,0 +1,40 @@
+package com.springORM.test;
+
+import java.util.List;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.springORM.dao.ProductDao;
+import com.springORM.model.Product;
+
+public class Test {
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/springORM/test/config.xml");
+		ProductDao productDao = (ProductDao) context.getBean("productDao");
+		// Product product = new Product();
+		/*
+		 * product.setId(4); product.setProductname("Watch");
+		 * product.setProductdesc("Smart watch"); product.setProductprice(3000);
+		 */
+		// productDao.create(product);
+		// productDao.update(product);
+		// productDao.delete(product);
+		// productDao.getAll();
+
+		/*
+		 * Hibernate O/P:: Hibernate: select product0_.id as id1_0_0_,
+		 * product0_.description as descript2_0_0_, product0_.name as
+		 * name3_0_0_, product0_.price as price4_0_0_ from product product0_
+		 * where product0_.id=? sysout:: Product [id=1, Productname=TV,
+		 * Productdesc=Smart TV, Productprice=15000.0]
+		 */
+
+		/*
+		 * Product product = productDao.find(1); System.out.println(product);
+		 */
+
+		List<Product> productslist = productDao.findAll();
+		System.out.println(productslist);
+	}
+}
